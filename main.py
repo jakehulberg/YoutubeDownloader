@@ -20,4 +20,15 @@ print(my_video2.title)
 
 my_video2 = my_video2.streams.get_highest_resolution()
 
-M_video2.download('/Users/jakehulberg/Desktop/Youtube_downloads')
+my_video2.download('/Users/jakehulberg/Desktop/Youtube_downloads')
+
+url3 = input ("2nd Youtube URL: ")
+
+my_video3 = YouTube(url)
+
+print(my_video3.title)
+
+
+my_video3 = my_video3.streams.get_highest_resolution()
+
+my_video3.download('/Users/jakehulberg/Desktop/Youtube_downloads')
