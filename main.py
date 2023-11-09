@@ -13,7 +13,7 @@ my_video.download('/Users/jakehulberg/Desktop/Youtube_Downloads')
 
 url2 = input ("2nd Youtube URL: ")
 
-my_video2 = YouTube(url)
+my_video2 = YouTube(url2)
 
 print(my_video2.title)
 
@@ -22,9 +22,9 @@ my_video2 = my_video2.streams.get_highest_resolution()
 
 my_video2.download('/Users/jakehulberg/Desktop/Youtube_downloads')
 
-url3 = input ("2nd Youtube URL: ")
+url3 = input ("3rd Youtube URL: ")
 
-my_video3 = YouTube(url)
+my_video3 = YouTube(url3)
 
 print(my_video3.title)
 
