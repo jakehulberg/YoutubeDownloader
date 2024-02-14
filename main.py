@@ -9,7 +9,7 @@ print(my_video.title)
 
 my_video = my_video.streams.get_highest_resolution()
 
-my_video.download('/Users/jakehulberg/Desktop/Youtube_Downloads')
+my_video.download('/Users/jakehulberg/Desktop/')
 
 url2 = input ("2nd Youtube URL: ")
 
